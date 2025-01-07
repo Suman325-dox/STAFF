@@ -3,126 +3,126 @@ const teacherData = {
         name: "Fr. Denis D. Suza",
         number: "9846189808",
         years: 5,
-        birthDate: "01/01/1985",
+        address: "01/01/1985",
         classes: "Class 1 to Class 5"
     },
     robin: {
         name: "Shiva V.K.",
         number: "9845086613",
         years: 7,
-        birthDate: "02/02/1980",
+        address: "02/02/1980",
         classes: "Class 6 to Class 10"
     },
     luffy: {
         name: "Narendra Upadhya",
         number: "9867332323",
         years: 3,
-        birthDate: "03/03/1990",
+        address: "03/03/1990",
         classes: "Class 5 to Class 8"
     },
     randy: {
         name: "Ishowri Sharma",
         number: "9845082264",
         years: 6,
-        birthDate: "04/04/1982",
+        address: "04/04/1982",
         classes: "Class 2 to Class 6"
     },
     cosmo: {
         name: "Sushil Pokhrel",
         number: "9863199463",
         years: 4,
-        birthDate: "05/05/1988",
+        address: "05/05/1988",
         classes: "Class 3 to Class 7"
     },
     sun: {
         name: "Khusbu Gurung",
         number: "9806709848",
         years: 2,
-        birthDate: "06/06/1992",
+        address: "06/06/1992",
         classes: "Class 4 to Class 9"
     },
     ronaldo: {
         name: "Krishna Sharan Upadhya",
         number: "9855050460",
         years: 5,
-        birthDate: "07/07/1989",
+        address: "07/07/1989",
         classes: "Class 1 to Class 5"
     },
     messy: {
         name: "Sarita Thapa",
         number: "9849636184",
         years: 8,
-        birthDate: "08/08/1987",
+        address: "08/08/1987",
         classes: "Class 6 to Class 10"
     },
     clean: {
         name: "Ashmita Koirala",
         number: "9748423894",
         years: 4,
-        birthDate: "12/12/1984",
+        address: "12/12/1984",
         classes: "Class 4 to Class 7"
     },
     neat: {
         name: "Anand Kumar Chaudhary",
         number: "9856041008",
         years: 5,
-        birthDate: "01/12/1988",
+        address: "01/12/1988",
         classes: "Class 8 to Class 10"
     },
     hungry: {
         name: "Rabina Pradhan",
         number: "9846721920",
         years: 6,
-        birthDate: "02/12/1983",
+        address: "02/12/1983",
         classes: "Class 5 to Class 9"
     },
     kkenton: {
         name: "Suman Rana",
-        number: "9806565142",
+        number: "9808860925",
         years: 2,
-        birthDate: "03/12/1990",
+        address: "03/12/1990",
         classes: "Class 2 to Class 5"
     },
     monty: {
         name: "Mohan Singh Gurung",
         number: "9817190273",
         years: 3,
-        birthDate: "04/12/1986",
+        address: "04/12/1986",
         classes: "Class 1 to Class 4"
     },
     comply: {
         name: "Shambhu Shahi",
         number: "9846129688",
         years: 1,
-        birthDate: "05/12/1997",
+        address: "05/12/1997",
         classes: "Class 3 to Class 8"
     },
     red_hed: {
         name: "Chandra Nepali",
         number: "9855052215",
         years: 5,
-        birthDate: "06/12/1984",
+        address: "06/12/1984",
         classes: "Class 6 to Class 10"
     },
     sectarian: {
         name: "Hari Lamsal",
         number: "9845114599",
         years: 5,
-        birthDate: "06/12/1984",
+        address: "06/12/1984",
         classes: "Class 6 to Class 10"
     },
     buffen: {
         name: "Anish Gurung",
         number: "9816615087",
         years: 5,
-        birthDate: "06/12/1984",
+        address: "06/12/1984",
         classes: "Class 6 to Class 10"
     },
     moldy: {
         name: "Amar Bdr. Gurung",
         number: "9815100818",
         years: 5,
-        birthDate: "06/12/1984",
+        address: "06/12/1984",
         classes: "Class 6 to Class 10"
     }
 };
@@ -133,7 +133,7 @@ function showInfo(teacherID) {
         document.getElementById("teacherName").textContent = teacher.name;
         document.getElementById("teacher-number").textContent = teacher.number;
         document.getElementById("teacher-years").textContent = teacher.years;
-        document.getElementById("teacher-birth-date").textContent = teacher.birthDate;
+        document.getElementById("teacher-address").textContent = teacher.address;
         document.getElementById("teacher-classes").textContent = teacher.classes;
 
         // Clear previous reviews
