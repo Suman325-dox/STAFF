@@ -62,80 +62,83 @@ const teacherData = {
         birthDate: "12/12/1984",
         classes: "Class 4 to Class 7"
     },
-neat: {
-            name: "Anand Kumar Chaudhary",
-            number: "9856041008",
-            years: 5,
-            birthDate: "01/12/1988",
-            classes: "Class 8 to Class 10"
-        },
-        hungry: {
-            name: "Rasbina Pradhan",
-            number: "9846721920",
-            years: 6,
-            birthDate: "02/12/1983",
-            classes: "Class 5 to Class 9"
-        },
-        kkenton: {
-            name: "Susmita Shrestha",
-            number: "9806565142",
-            years: 2,
-            birthDate: "03/12/1990",
-            classes: "Class 2 to Class 5"
-        },
-        monty: {
-            name: "Mohan Singh Gurung",
-            number: "9817190273",
-            years: 3,
-            birthDate: "04/12/1986",
-            classes: "Class 1 to Class 4"
-        },
-        comply: {
-            name: "Shambhu Shahi",
-            number: "9846129688",
-            years: 1,
-            birthDate: "05/12/1997",
-            classes: "Class 3 to Class 8"
-        },
-        red_hed: {
-            name: "Chandra Nepali",
-            number: "9855052215",
-            years: 5,
-            birthDate: "06/12/1984",
-            classes: "Class 6 to Class 10"
-        },
-       sectarian: {
-            name: "Hari Lamsal",
-            number: "9845114599",
-            years: 5,
-            birthDate: "06/12/1984",
-            classes: "Class 6 to Class 10"
-        },
-    
+    neat: {
+        name: "Anand Kumar Chaudhary",
+        number: "9856041008",
+        years: 5,
+        birthDate: "01/12/1988",
+        classes: "Class 8 to Class 10"
+    },
+    hungry: {
+        name: "Rabina Pradhan",
+        number: "9846721920",
+        years: 6,
+        birthDate: "02/12/1983",
+        classes: "Class 5 to Class 9"
+    },
+    kkenton: {
+        name: "Susmita Shrestha",
+        number: "9806565142",
+        years: 2,
+        birthDate: "03/12/1990",
+        classes: "Class 2 to Class 5"
+    },
+    monty: {
+        name: "Mohan Singh Gurung",
+        number: "9817190273",
+        years: 3,
+        birthDate: "04/12/1986",
+        classes: "Class 1 to Class 4"
+    },
+    comply: {
+        name: "Shambhu Shahi",
+        number: "9846129688",
+        years: 1,
+        birthDate: "05/12/1997",
+        classes: "Class 3 to Class 8"
+    },
+    red_hed: {
+        name: "Chandra Nepali",
+        number: "9855052215",
+        years: 5,
+        birthDate: "06/12/1984",
+        classes: "Class 6 to Class 10"
+    },
+    sectarian: {
+        name: "Hari Lamsal",
+        number: "9845114599",
+        years: 5,
+        birthDate: "06/12/1984",
+        classes: "Class 6 to Class 10"
+    },
     buffen: {
-            name: "Anish Gurung",
-            number: "9816615087",
-            years: 5,
-            birthDate: "06/12/1984",
-            classes: "Class 6 to Class 10"
-        }
+        name: "Anish Gurung",
+        number: "9816615087",
+        years: 5,
+        birthDate: "06/12/1984",
+        classes: "Class 6 to Class 10"
+    },
     moldy: {
-            name: "Amar Bdr. Gurung",
-            number: "9815100818",
-            years: 5,
-            birthDate: "06/12/1984",
-            classes: "Class 6 to Class 10"
-        },
-    
-    };
+        name: "Amar Bdr. Gurung",
+        number: "9815100818",
+        years: 5,
+        birthDate: "06/12/1984",
+        classes: "Class 6 to Class 10"
+    }
+};
+
 function showInfo(teacherID) {
     const teacher = teacherData[teacherID];
     if (teacher) {
         document.getElementById("teacherName").textContent = teacher.name;
-        document.getElementById("teacherNumber").textContent = teacher.number;
-        document.getElementById("teacherYears").textContent = teacher.years;
-        document.getElementById("teacherBirthDate").textContent = teacher.birthDate;
-        document.getElementById("teacherClass").textContent = teacher.classes;
+        document.getElementById("teacher-number").textContent = teacher.number;
+        document.getElementById("teacher-years").textContent = teacher.years;
+        document.getElementById("teacher-birth-date").textContent = teacher.birthDate;
+        document.getElementById("teacher-classes").textContent = teacher.classes;
+
+        // Clear previous reviews
+        const reviewsList = document.getElementById("reviews-list");
+        reviewsList.innerHTML = '';
 
         document.getElementById("infoModal").style.display = "block";
     }
@@ -146,14 +149,14 @@ function closeModal() {
 }
 
 function submitReview() {
-    const reviewInput = document.getElementById("reviewInput").value;
+    const reviewInput = document.getElementById("review-input").value;
 
     if (reviewInput.trim()) {
-        const reviewsList = document.getElementById("reviewsList");
+        const reviewsList = document.getElementById("reviews-list");
         const newReview = document.createElement("p");
         newReview.textContent = reviewInput;
         reviewsList.appendChild(newReview);
-        document.getElementById("reviewInput").value = '';
+        document.getElementById("review-input").value = '';
     } else {
         alert("Please enter a review before submitting.");
     }
