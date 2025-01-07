@@ -77,7 +77,7 @@ const teacherData = {
         classes: "Class 5 to Class 9"
     },
     kkenton: {
-        name: "Susmita Shrestha",
+        name: "Suman Rana",
         number: "9806565142",
         years: 2,
         birthDate: "03/12/1990",
