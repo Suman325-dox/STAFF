@@ -1,112 +1,112 @@
 const teacherData = {
     james: {
         name: "Fr. Denis D. Suza",
-        number: "123-456-7890",
+        number: "9846189808",
         years: 5,
         birthDate: "01/01/1985",
         classes: "Class 1 to Class 5"
     },
     robin: {
         name: "Shiva V.K.",
-        number: "098-765-4321",
+        number: "9845086613",
         years: 7,
         birthDate: "02/02/1980",
         classes: "Class 6 to Class 10"
     },
     luffy: {
         name: "Narendra Upadhya",
-        number: "123-987-6543",
+        number: "9867332323",
         years: 3,
         birthDate: "03/03/1990",
         classes: "Class 5 to Class 8"
     },
     randy: {
         name: "Ishowri Sharma",
-        number: "456-123-7890",
+        number: "9845082264",
         years: 6,
         birthDate: "04/04/1982",
         classes: "Class 2 to Class 6"
     },
     cosmo: {
         name: "Sushil Pokhrel",
-        number: "321-654-9870",
+        number: "9863199463",
         years: 4,
         birthDate: "05/05/1988",
         classes: "Class 3 to Class 7"
     },
     sun: {
         name: "Khusbu Gurung",
-        number: "654-321-0987",
+        number: "9806709848",
         years: 2,
         birthDate: "06/06/1992",
         classes: "Class 4 to Class 9"
     },
     ronaldo: {
         name: "Krishna Sharan Upadhya",
-        number: "789-012-3456",
+        number: "9855050460",
         years: 5,
         birthDate: "07/07/1989",
         classes: "Class 1 to Class 5"
     },
     messy: {
         name: "Sarita Thapa",
-        number: "012-345-6789",
+        number: "9849636184",
         years: 8,
         birthDate: "08/08/1987",
         classes: "Class 6 to Class 10"
     },
     clean: {
         name: "Ashmita Koirala",
-        number: "321-987-6540",
+        number: "9748423894",
         years: 4,
         birthDate: "12/12/1984",
         classes: "Class 4 to Class 7"
     },
 neat: {
             name: "Anand Kumar Chaudhary",
-            number: "654-789-0123",
+            number: "9856041008",
             years: 5,
             birthDate: "01/12/1988",
             classes: "Class 8 to Class 10"
         },
         hungry: {
-            name: "Rasmina Pradhan",
-            number: "987-654-3210",
+            name: "Rasbina Pradhan",
+            number: "9846721920",
             years: 6,
             birthDate: "02/12/1983",
             classes: "Class 5 to Class 9"
         },
         kkenton: {
-            name: "Susmita Shtestha",
-            number: "213-456-7890",
+            name: "Susmita Shrestha",
+            number: "9806565142",
             years: 2,
             birthDate: "03/12/1990",
             classes: "Class 2 to Class 5"
         },
         monty: {
             name: "Mohan Singh Gurung",
-            number: "321-654-0987",
+            number: "9817190273",
             years: 3,
             birthDate: "04/12/1986",
             classes: "Class 1 to Class 4"
         },
         comply: {
             name: "Shambhu Shahi",
-            number: "654-789-1230",
+            number: "9846129688",
             years: 1,
             birthDate: "05/12/1997",
             classes: "Class 3 to Class 8"
         },
         red_hed: {
             name: "Chandra Nepali",
-            number: "987-012-3456",
+            number: "9855052215",
             years: 5,
             birthDate: "06/12/1984",
             classes: "Class 6 to Class 10"
         },
        sectarian: {
-            name: "Bhidhya Nepali",
-            number: "987-012-3456",
+            name: "Hari Lamsal",
+            number: "9845114599",
             years: 5,
             birthDate: "06/12/1984",
             classes: "Class 6 to Class 10"
@@ -114,14 +114,14 @@ neat: {
     
     buffen: {
             name: "Anish Gurung",
-            number: "987-012-3456",
+            number: "9816615087",
             years: 5,
             birthDate: "06/12/1984",
             classes: "Class 6 to Class 10"
         }
     moldy: {
             name: "Amar Bdr. Gurung",
-            number: "987-012-3456",
+            number: "9815100818",
             years: 5,
             birthDate: "06/12/1984",
             classes: "Class 6 to Class 10"
