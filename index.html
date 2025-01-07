@@ -12,38 +12,35 @@
         <div class="grid-item" onclick="showInfo('james')">Fr. Denis D. Suza</div>
         <div class="grid-item" onclick="showInfo('robin')">Shiva V.K.</div>
         <div class="grid-item" onclick="showInfo('luffy')">Narendra Upadhya</div>
-         <div class="grid-item" onclick="showInfo('randy')">Ishowri Sharma</div>
+        <div class="grid-item" onclick="showInfo('randy')">Ishowri Sharma</div>
         <div class="grid-item" onclick="showInfo('cosmo')">Sushil Pokhrel</div>
         <div class="grid-item" onclick="showInfo('sun')">Khusbu Gurung</div>
         <div class="grid-item" onclick="showInfo('ronaldo')">Krishna Sharan Upadhya</div>
         <div class="grid-item" onclick="showInfo('messy')">Sarita Thapa</div>
         <div class="grid-item" onclick="showInfo('kkenton')">Susmita Shrestha</div>
         <div class="grid-item" onclick="showInfo('monty')">Mohan Singh Gurung</div>
-      <div class="grid-item" onclick="showInfo('comply')">Shambhu Shahi</div>
-      <div class="grid-item" onclick="showInfo('sectarian')">Hari Lamsal</div>
-      <div class="grid-item" onclick="showInfo('buffen')">Anish Gurung</div>
-      <div class="grid-item" onclick="showInfo('moldy')">Amar Bdr. Gurung</div>
+        <div class="grid-item" onclick="showInfo('comply')">Shambhu Shahi</div>
+        <div class="grid-item" onclick="showInfo('sectarian')">Hari Lamsal</div>
+        <div class="grid-item" onclick="showInfo('buffen')">Anish Gurung</div>
+        <div class="grid-item" onclick="showInfo('moldy')">Amar Bdr. Gurung</div>
         <div class="grid-item" onclick="showInfo('red_hed')">Chandra Nepali</div>
         <div class="grid-item" onclick="showInfo('clean')">Ashmita Koirala</div>
-        <div class="grid-item" onclick="showInfo('neat ')">Anand Kumar Chaudhary</div>
+        <div class="grid-item" onclick="showInfo('neat')">Anand Kumar Chaudhary</div>
         <div class="grid-item" onclick="showInfo('hungry')">Rabina Pradhan</div>
-        <!-- ... -->
     </div>
 
     <div id="infoModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
             <h2 id="teacherName"></h2>
-            <template id="teacher-info-template">
-                <p><strong>Phone Number:</strong> <span id="teacher-number"></span></p>
-                <p><strong>Years of Experience:</strong> <span id="teacher-years"></span></p>
-                <p><strong>Birth Date:</strong> <span id="teacher-birth-date"></span></p>
-                <p><strong>Classes:</strong> <span id="teacher-classes"></span></p>
-                <h3>Reviews:</h3>
-                <div id="reviews-list"></div>
-                <input type="text" id="review-input" placeholder="Write a review...">
-                <button onclick="submitReview()">Submit Review</button>
-            </template>
+            <p><strong>Phone Number:</strong> <span id="teacher-number"></span></p>
+            <p><strong>Years of Experience:</strong> <span id="teacher-years"></span></p>
+            <p><strong>Birth Date:</strong> <span id="teacher-birth-date"></span></p>
+            <p><strong>Classes:</strong> <span id="teacher-classes"></span></p>
+            <h3>Reviews:</h3>
+            <div id="reviews-list"></div>
+            <input type="text" id="review-input" placeholder="Write a review...">
+            <button onclick="submitReview()">Submit Review</button>
         </div>
     </div>
 
