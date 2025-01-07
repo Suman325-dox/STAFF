@@ -128,3 +128,33 @@ neat: {
         },
     
     };
+function showInfo(teacherID) {
+    const teacher = teacherData[teacherID];
+    if (teacher) {
+        document.getElementById("teacherName").textContent = teacher.name;
+        document.getElementById("teacherNumber").textContent = teacher.number;
+        document.getElementById("teacherYears").textContent = teacher.years;
+        document.getElementById("teacherBirthDate").textContent = teacher.birthDate;
+        document.getElementById("teacherClass").textContent = teacher.classes;
+
+        document.getElementById("infoModal").style.display = "block";
+    }
+}
+
+function closeModal() {
+    document.getElementById("infoModal").style.display = "none";
+}
+
+function submitReview() {
+    const reviewInput = document.getElementById("reviewInput").value;
+
+    if (reviewInput.trim()) {
+        const reviewsList = document.getElementById("reviewsList");
+        const newReview = document.createElement("p");
+        newReview.textContent = reviewInput;
+        reviewsList.appendChild(newReview);
+        document.getElementById("reviewInput").value = '';
+    } else {
+        alert("Please enter a review before submitting.");
+    }
+}
