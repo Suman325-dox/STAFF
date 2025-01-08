@@ -2,7 +2,7 @@ const teacherData = {
     james: {
         name: "Fr. Denis D. Suza",
         number: "9846189808",
-        years: 0#,
+        years: 0,
         address: "Bandipur",
         classes: "No classes",
         reviews: [
