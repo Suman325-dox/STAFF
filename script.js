@@ -2,12 +2,12 @@ const teacherData = {
     james: {
         name: "Fr. Denis D. Suza",
         number: "9846189808",
-        years: 5,
-        address: "1address",
-        classes: "Class 1 to Class 5",
+        years: unknown,
+        address: "Bandipur",
+        classes: "No classes",
         reviews: [
-            "He is a nice teacher.",
-            "Great knowledge and teaching skills.",
+            "He is a nice person.",
+            "Great knowledge .",
             "Always helpful and supportive."
         ]
     },
@@ -15,8 +15,8 @@ const teacherData = {
         name: "Shiva V.K.",
         number: "9845086613",
         years: 7,
-        address: "2address",
-        classes: "Class 6 to Class 10",
+        address: "Bharatpur-14",
+        classes: "Class 6 to Class 12",
         reviews: [
             "He is an excellent teacher.",
             "Very engaging and inspirational."
@@ -26,8 +26,8 @@ const teacherData = {
         name: "Narendra Upadhya",
         number: "9867332323",
         years: 3,
-        address: "3address",
-        classes: "Class 5 to Class 8",
+        address: "Bandipur",
+        classes: "Class 5 to Class 12",
         reviews: [
             "He brings lots of energy to his classes."
         ]
@@ -36,7 +36,7 @@ const teacherData = {
         name: "Ishowri Sharma",
         number: "9845082264",
         years: 6,
-        address: "4address",
+        address: "Bandipur",
         classes: "Class 2 to Class 6",
         reviews: [
             "She makes learning fun and interactive.",
@@ -46,8 +46,8 @@ const teacherData = {
     cosmo: {
         name: "Sushil Pokhrel",
         number: "9863199463",
-        years: 4,
-        address: "5address",
+        years: 10,
+        address: "unknown",
         classes: "Class 3 to Class 7",
         reviews: [
             "He is a disciplined and creative teacher."
@@ -57,18 +57,19 @@ const teacherData = {
         name: "Khusbu Gurung",
         number: "9806709848",
         years: 2,
-        address: "6address",
+        address: "Bandipur",
         classes: "Class 4 to Class 9",
         reviews: [
             "She is so patient and helpful.",
             "Always encourages students."
+            "Best computerteacher"
         ]
     },
     ronaldo: {
         name: "Krishna Sharan Upadhya",
         number: "9855050460",
         years: 5,
-        address: "7address",
+        address: "Unknown",
         classes: "Class 1 to Class 5",
         reviews: [
             "He is an outstanding mentor."
@@ -78,7 +79,7 @@ const teacherData = {
         name: "Sarita Thapa",
         number: "9849636184",
         years: 8,
-        address: "8address",
+        address: "Butwal",
         classes: "Class 6 to Class 10",
         reviews: [
             "She has great teaching skills.",
@@ -89,7 +90,7 @@ const teacherData = {
         name: "Ashmita Koirala",
         number: "9748423894",
         years: 4,
-        address: "9address",
+        address: "Bandipur",
         classes: "Class 4 to Class 7",
         reviews: [
             "She is very encouraging.",
@@ -100,7 +101,7 @@ const teacherData = {
         name: "Anand Kumar Chaudhary",
         number: "9856041008",
         years: 5,
-        address: "10address",
+        addres: "unknown",
         classes: "Class 8 to Class 10",
         reviews: [
             "He is very thorough and precise."
@@ -110,7 +111,7 @@ const teacherData = {
         name: "Rasbina Pradhan",
         number: "9846721920",
         years: 6,
-        address: "11address",
+        address: "Bandipur",
         classes: "Class 5 to Class 9",
         reviews: [
             "She engages students well."
@@ -120,7 +121,7 @@ const teacherData = {
         name: "Suman Rana",
         number: "9808860925",
         years: 2,
-        address: "12address",
+        address: "Rishing",
         classes: "Class 2 to Class 5",
         reviews: [
             "He is a great listener.",
@@ -131,7 +132,7 @@ const teacherData = {
         name: "Mohan Singh Gurung",
         number: "9817190273",
         years: 3,
-        address: "13address",
+        address: "Bandipur-5",
         classes: "Class 1 to Class 4",
         reviews: [
             "He supports all his students."
@@ -141,7 +142,7 @@ const teacherData = {
         name: "Shambhu Shahi",
         number: "9846129688",
         years: 1,
-        address: "14address",
+        address:"unknown",
         classes: "Class 3 to Class 8",
         reviews: [
             "He is very motivating."
@@ -151,7 +152,7 @@ const teacherData = {
         name: "Chandra Nepali",
         number: "9855052215",
         years: 5,
-        address: "15address",
+        addres: "Bandipur-25",
         classes: "Class 6 to Class 10",
         reviews: [
             "He has excellent teaching methods."
@@ -161,17 +162,17 @@ const teacherData = {
         name: "Hari Lamsal",
         number: "9845114599",
         years: 5,
-        address: "16address",
+        address: "unknown",
         classes: "Class 6 to Class 10",
         reviews: [
             "He has deep knowledge of his subjects."
         ]
     },
     buffen: {
-        name: "Anish Gurung",
-        number: "9816615087",
+        name: "Keshav Prasad Poudel",
+        number: "9845047035",
         years: 5,
-        address: "17address",
+        address: "Chitwan",
         classes: "Class 6 to Class 10",
         reviews: [
             "He is always well prepared for his lessons."
@@ -181,7 +182,7 @@ const teacherData = {
         name: "Amar Bdr. Gurung",
         number: "9815100818",
         years: 5,
-        address: "18address",
+        address: "unknown",
         classes: "Class 6 to Class 10",
         reviews: [
             "He provides excellent feedback."
