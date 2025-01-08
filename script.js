@@ -70,7 +70,7 @@ const teacherData = {
         classes: "Class 8 to Class 10"
     },
     hungry: {
-        name: "Rabina Pradhan",
+        name: "Rasbina Pradhan",
         number: "9846721920",
         years: 6,
         birthdate: "02/12/1983",
