@@ -23,20 +23,18 @@
         <div class="grid-item" onclick="showInfo('sectarian')">Hari Lamsal</div>
         <div class="grid-item" onclick="showInfo('buffen')">Anish Gurung</div>
         <div class="grid-item" onclick="showInfo('moldy')">Amar Bdr. Gurung</div>
-        <div class="grid-item" onclick="showInfo('red_hed')">Chandra Nepali</div>
-        <div class="grid-item" onclick="showInfo('clean')">Ashmita Koirala</div>
-        <div class="grid-item" onclick="showInfo('neat')">Anand Kumar Chaudhary</div>
-        <div class="grid-item" onclick="showInfo('hungry')">Rasbina Pradhan</div>
     </div>
 
     <div id="infoModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
             <h2 id="teacherName"></h2>
-            <p><strong>Phone Number:</strong> <span id="teacher-number"></span></p>
-            <p><strong>Years of Experience:</strong> <span id="teacher-years"></span></p>
-            <p><strong>Birth Date:</strong> <span id="teacher-birth-date"></span></p>
-            <p><strong>Classes:</strong> <span id="teacher-classes"></span></p>
+            <div class="info-section">
+                <p><strong>Phone Number:</strong> <span id="teacher-number"></span></p>
+                <p><strong>Years of Experience:</strong> <span id="teacher-years"></span></p>
+                <p><strong>Address:</strong> <span id="teacher-address"></span></p>
+                <p><strong>Classes:</strong> <span id="teacher-classes"></span></p>
+            </div>
             <h3>Reviews:</h3>
             <div id="reviews-list"></div>
             <input type="text" id="review-input" placeholder="Write a review...">
