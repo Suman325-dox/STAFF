@@ -14,7 +14,7 @@ const teacherData = {
     robin: {
         name: "Shiva V.K.",
         number: "9845086613",
-        years: 7,
+        years: 18,
         address: "Bharatpur-14",
         classes: "Class 6 to Class 12",
         reviews: [
@@ -25,7 +25,7 @@ const teacherData = {
     luffy: {
         name: "Narendra Upadhya",
         number: "9867332323",
-        years: 3,
+        years: 15,
         address: "Bandipur",
         classes: "Class 5 to Class 12",
         reviews: [
@@ -35,7 +35,7 @@ const teacherData = {
     randy: {
         name: "Ishowri Sharma",
         number: "9845082264",
-        years: 6,
+        years: 19,
         address: "Bandipur",
         classes: "Class 2 to Class 6",
         reviews: [
@@ -46,7 +46,7 @@ const teacherData = {
     cosmo: {
         name: "Sushil Pokhrel",
         number: "9863199463",
-        years: 10,
+        years: 2,
         address: "unknown",
         classes: "Class 3 to Class 7",
         reviews: [
@@ -56,7 +56,7 @@ const teacherData = {
     sun: {
         name: "Khusbu Gurung",
         number: "9806709848",
-        years: 2,
+        years: 1,
         address: "Bandipur",
         classes: "Class 4 to Class 9",
         reviews: [
@@ -68,7 +68,7 @@ const teacherData = {
     ronaldo: {
         name: "Krishna Sharan Upadhya",
         number: "9855050460",
-        years: 5,
+        years: 20,
         address: "Unknown",
         classes: "Class 1 to Class 5",
         reviews: [
@@ -78,7 +78,7 @@ const teacherData = {
     messy: {
         name: "Sarita Thapa",
         number: "9849636184",
-        years: 8,
+        years: 15,
         address: "Butwal",
         classes: "Class 6 to Class 10",
         reviews: [
@@ -89,7 +89,7 @@ const teacherData = {
     clean: {
         name: "Ashmita Koirala",
         number: "9748423894",
-        years: 4,
+        years: 0,
         address: "Bandipur",
         classes: "Class 4 to Class 7",
         reviews: [
@@ -100,7 +100,7 @@ const teacherData = {
     neat: {
         name: "Anand Kumar Chaudhary",
         number: "9856041008",
-        years: 5,
+        years: 0,
         addres: "unknown",
         classes: "Class 8 to Class 10",
         reviews: [
