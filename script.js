@@ -68,7 +68,7 @@ const teacherData = {
     ronaldo: {
         name: "Krishna Sharan Upadhya",
         number: "9855050460",
-        years: 20,
+        years: 34,
         address: "Unknown",
         classes: "Class 1 to Class 5",
         reviews: [
@@ -78,7 +78,7 @@ const teacherData = {
     messy: {
         name: "Sarita Thapa",
         number: "9849636184",
-        years: 15,
+        years: 11,
         address: "Butwal",
         classes: "Class 6 to Class 10",
         reviews: [
@@ -120,7 +120,7 @@ const teacherData = {
     kkenton: {
         name: "Suman Rana",
         number: "9808860925",
-        years: 2,
+        years: 10,
         address: "Rishing",
         classes: "Class 2 to Class 5",
         reviews: [
@@ -171,7 +171,7 @@ const teacherData = {
     buffen: {
         name: "Keshav Prasad Poudel",
         number: "9845047035",
-        years: 5,
+        years: 1,
         address: "Chitwan",
         classes: "Class 6 to Class 10",
         reviews: [
