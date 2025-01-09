@@ -69,7 +69,7 @@ const teacherData = {
         name: "Krishna Sharan Upadhya",
         number: "9855050460",
         years: 34,
-        address: "Unknown",
+        address: "Chitwan",
         classes: "Class 1 to Class 5",
         reviews: [
             "He is an outstanding mentor."
