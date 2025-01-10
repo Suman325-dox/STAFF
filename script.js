@@ -16,7 +16,7 @@ const teacherData = {
         number: "9845086613",
         years: 18,
         address: "Bharatpur-14",
-        classes: "Class 6 to Class 12",
+        classes: "upto Class 12",
         reviews: [
             "He is an excellent teacher.",
             "Very engaging and inspirational."
@@ -27,7 +27,7 @@ const teacherData = {
         number: "9867332323",
         years: 15,
         address: "Bandipur",
-        classes: "Class 5 to Class 12",
+        classes: "upto Class 12",
         reviews: [
             "He brings lots of energy to his classes."
         ]
@@ -37,7 +37,7 @@ const teacherData = {
         number: "9845082264",
         years: 19,
         address: "Bandipur",
-        classes: "Class 2 to Class 6",
+        classes: "uptoClass 12",
         reviews: [
             "She makes learning fun and interactive.",
             "Very approachable and understanding."
@@ -48,7 +48,7 @@ const teacherData = {
         number: "9863199463",
         years: 2,
         address: "unknown",
-        classes: "Class 3 to Class 7",
+        classes: "upto Class 12",
         reviews: [
             "He is a disciplined and creative teacher."
         ]
@@ -58,7 +58,7 @@ const teacherData = {
         number: "9806709848",
         years: 1,
         address: "Bandipur",
-        classes: "Class 4 to Class 9",
+        classes: "upto Class 12",
         reviews: [
             "She is so patient and helpful.",
             "Always encourages students.",
@@ -70,7 +70,7 @@ const teacherData = {
         number: "9855050460",
         years: 34,
         address: "Chitwan",
-        classes: "Class 1 to Class 5",
+        classes: "upto Class 12",
         reviews: [
             "He is an outstanding mentor."
         ]
@@ -80,7 +80,7 @@ const teacherData = {
         number: "9849636184",
         years: 11,
         address: "Butwal",
-        classes: "Class 6 to Class 10",
+        classes: "upto Class 12",
         reviews: [
             "She has great teaching skills.",
             "Very knowledgeable and supportive."
@@ -122,7 +122,7 @@ const teacherData = {
         number: "9808860925",
         years: 10,
         address: "Rishing",
-        classes: "Class 2 to Class 5",
+        classes: "upto Class 12",
         reviews: [
             "He is a great listener.",
             "Always helpful and understanding."
@@ -133,7 +133,7 @@ const teacherData = {
         number: "9817190273",
         years: 3,
         address: "Bandipur-5",
-        classes: "Class 1 to Class 4",
+        classes: "from class to class",
         reviews: [
             "He supports all his students."
         ]
@@ -173,7 +173,7 @@ const teacherData = {
         number: "9845047035",
         years: 1,
         address: "Chitwan",
-        classes: "Class 6 to Class 10",
+        classes: "upto Class 112",
         reviews: [
             "He is always well prepared for his lessons."
         ]
