@@ -39,7 +39,7 @@ const teacherData = {
         address: "Bandipur",
         classes: "uptoClass 12",
         reviews: [
-            "She makes learning fun and interactive.",
+            "He makes learning fun and interactive.",
             "Very approachable and understanding."
         ]
     },
@@ -173,7 +173,7 @@ const teacherData = {
         number: "9845047035",
         years: 1,
         address: "Chitwan",
-        classes: "upto Class 112",
+        classes: "upto Class 12",
         reviews: [
             "He is always well prepared for his lessons."
         ]
